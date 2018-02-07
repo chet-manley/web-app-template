@@ -1,0 +1,34 @@
+{
+  "name": "{web-app-template}",
+  "version": "1.0.0",
+  "description": "{app template}",
+  "keywords": [],
+  "author": {
+    "name": "Chet Manley",
+    "url": "https://github.com/chet-manley"
+  },
+  "license": "MIT",
+  "module": "./src/app.bootstrap.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chet-manley/web-app-template.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no tests specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.18",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.17.0",
+    "file-loader": "^1.1.6",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.20.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.1"
+  }
+}
